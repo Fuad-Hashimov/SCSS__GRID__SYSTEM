@@ -27,12 +27,18 @@ img {
   max-width: 100%;
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
+.base-container, .container-fluid, .container {
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+}
+
+.container-fluid {
+  width: 100%;
 }
 
 .row {
