@@ -1,0 +1,16 @@
+// variables & functions
+@import "./Abstracts/variables";
+
+// base & layout
+@import "./Base/base";
+@import "./Grid/brekpoints";
+@import "./Grid/grid";
+
+// colors
+@import "./Base/colors";
+
+//components (button ,card ,navbar)
+@import "./Components/card";
+@import "./Components/button";
+
+//utillities(margin, padding, opasity)
